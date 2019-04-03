@@ -1,0 +1,15 @@
+<body>
+    <header>
+
+    </header>
+    <main>
+        div
+        article
+        section
+        nav
+        aside
+    </main>
+    <footer>
+
+    </footer>
+</body>
