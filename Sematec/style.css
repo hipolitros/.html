@@ -1,0 +1,93 @@
+body {
+    color: #333333;
+    font-family:'Lucida Grande', 'Lucida Sans Unicode', sans-serif;
+    margin-left: 241.5px;
+    margin-right: 241.5px;
+    width: 940px;
+}
+
+p {
+    padding-left: 48px;
+    padding-right: 48px;
+    text-indent: 16px; 
+}
+
+a:link {
+    color: #0000cd;
+    background-color: transparent;
+    text-decoration: none;
+  }
+  a:visited {
+    color: #551a8b;
+    background-color: transparent;
+    text-decoration: none;
+  }
+  a:hover {
+    color: red;
+    background-color: transparent;
+    text-decoration: underline;
+  }
+  a:active {
+    color: yellow;
+    background-color: transparent;
+    text-decoration: underline;
+  }
+
+.foto {
+    background: #F2EDED;
+    border: 1px solid #cccccc;
+    padding: 15px;
+    margin: auto;
+}
+
+.deposito {
+    width: 385px;
+    
+}
+
+.pelho {
+    float: right;
+}
+
+figcaption {
+    text-align: center;
+    font-style: italic;
+}
+
+ins {
+    color: #0000cd;
+}
+
+h1 {
+    background-color: #d3d3d3;
+    padding: 10px;
+}
+
+h2 {
+    border-bottom: 2px solid #333333;
+}
+
+h3 {
+    color:#0001fd;
+    background: #DCDCF5;
+    font-size: 48px;
+    text-align: center;
+    padding: 20px;
+    margin: 30px 0;
+}
+
+#rodape {
+    margin-top: 32px;
+    margin-bottom: 32px;
+    margin-left: 0px;
+    margin-right: 0px;
+    padding-top: 32px;
+    padding-bottom: 32px;
+    padding-left: 0px;
+    padding-right: 0px;
+}
+
+#rodape img {
+    margin-right: 32px;
+    vertical-align: middle;
+}
