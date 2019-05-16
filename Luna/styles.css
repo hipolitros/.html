@@ -3,14 +3,17 @@ html {
     padding: 0;
 }
 
-img {
-    display: block;
-    margin-left: auto;
-    margin-right: auto;
+.Logo {
+    display: flex;
+    margin: auto;
+    padding: auto;
 
 }
 
 nav {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-evenly;
     border: 2px solid #094194; 
     background-color: #094194;
     padding: 15px 32px;
@@ -23,4 +26,53 @@ nav {
 a {
     padding: 0 10px;
     color: #ffffff;
+    border-bottom: #094194;
 }
+
+.content {
+    display: flex;
+    padding: 10px;
+    justify-content: space-around;
+}
+
+.content-2 {
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-end;
+    align-items: baseline;
+
+}
+
+.thumbnail {
+    width: 285px;
+    height: 210px;
+    padding: 0 10px;
+
+}
+
+.thumbnail-2 {
+    width: 420px;
+    height: 200px;
+    padding: 10px 0;
+}
+
+.border {
+    border-top: 5px solid #094194;
+}
+
+.item {
+    width: 500px;
+    height: 210px;
+    display: flex;
+    flex-direction: column;
+
+}
+
+.radius {
+    border-radius: 5px;
+}
+
+.main{
+    width: 800px;
+}
+
