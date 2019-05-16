@@ -3,23 +3,23 @@ html {
     padding: 0;
 }
 
-.Logo {
+header {
     display: flex;
-    margin: auto;
-    padding: auto;
+    flex-direction: column;
+    
+}
 
+.logotop {
+    display: flex;
+    align-self: center;
+    
 }
 
 nav {
     display: flex;
-    flex-direction: row;
     justify-content: space-evenly;
-    border: 2px solid #094194; 
     background-color: #094194;
-    padding: 15px 32px;
-    text-align: center;
-    text-decoration: none;
-    font-size: 16px;
+    padding: 20px 0;
 
 }
 
@@ -36,10 +36,11 @@ a {
 }
 
 .content-2 {
+    width: 740px;
     display: flex;
     flex-direction: column;
-    justify-content: flex-end;
-    align-items: baseline;
+    align-items: flex-end;
+    box-sizing: border-box;
 
 }
 
@@ -53,11 +54,16 @@ a {
 .thumbnail-2 {
     width: 420px;
     height: 200px;
-    padding: 10px 0;
+    padding: 10px;
+}
+
+#face {
+    padding: 10px;
 }
 
 .border {
     border-top: 5px solid #094194;
+    
 }
 
 .item {
@@ -70,9 +76,16 @@ a {
 
 .radius {
     border-radius: 5px;
+
 }
 
 .main{
-    width: 800px;
+    display: flex;
+
 }
 
+.section-mvp {
+    flex-direction: column;
+    align-items: center;
+
+}
